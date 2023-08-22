@@ -22,6 +22,7 @@ public void complexpojo()
 	car.setModel("Civic Touring");
 	car.setName("New Honda");
 	
+	
 	Car car1=new Car();
 	car1.setModel("Camry SE");
 	car1.setName("Toyota");

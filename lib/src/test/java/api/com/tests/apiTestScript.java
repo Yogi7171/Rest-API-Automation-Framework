@@ -15,7 +15,7 @@ import io.restassured.response.Response;
 public class apiTestScript extends Uri{
 
 
-@Test(description="Validate the status code for GET users endpoint")
+@Test(description="Validate the status code for Post users endpoint",groups="RegressionSuit")
 public void validatestatusCodeGetUsers() throws IOException, ParseException {
 	//System.out.println("*********"+ReadTestData.getTestData("uriGetUsers"));
 			//System.out.println(Helper.propertyReader("qaBaseUrl"));
