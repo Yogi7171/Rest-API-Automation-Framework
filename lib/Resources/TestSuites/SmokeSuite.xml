@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Automation Test RegressionSuite for API">
+<listeners>
+		<listener class-name="api.com.util.RetryListener"/>
+</listeners>
+	<test name="Automation Test Cases">
+		<classes>
+			
+				<class name="api.com.tests.postmethodjson"/>
+			
+		</classes>	
+	 </test>
+</suite>

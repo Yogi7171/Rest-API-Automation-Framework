@@ -1,0 +1,5 @@
+{
+	"uriGetUsers":"https://reqres.in/api/users?page=3",
+	"email":"lindsay.ferguson@reqres.in",
+	"endpointGetuser":"/api/users?page=3"
+}
